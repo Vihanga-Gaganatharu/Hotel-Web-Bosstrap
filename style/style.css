@@ -245,7 +245,7 @@ header.sticky ul li a {
   font-size: 150px;
   color: #ffffff;
   padding-top: 10%;
-  font
+  border: 1px solid #16effe;
 }
 
 .home p {
@@ -300,4 +300,100 @@ button i {
 button span {
   margin-top: 5px;
 }
+/*------------about------------*/
+.top {
+  margin-top: 80px;
+}
+
+.mtop {
+  margin-top: 40px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading h5 {
+  font-weight: 800;
+  letter-spacing: 7px;
+  color: #000000;
+  padding-top: 20px;
+}
+
+.heading h2 {
+  color: #00eeff;
+  font-size: 45px;
+  font-family: serif;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+}
+
+.left, .right {
+  width: 50%;
+}
+
+h3 {
+  font-size: 35px;
+  font-family: serif;
+  color: #24416B;
+  margin-bottom: 20px;
+}
+
+.about .left {
+  padding: 20px;
+}
+
+p {
+  line-height: 30px;
+  color: #a4a4a4;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.about {
+  position: relative;
+  padding-bottom: 70px;
+}
+
+.about .right {
+  position: relative;
+}
+
+.about .right::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #16effe;
+  width: 92%;
+  height: 61vh;
+  z-index: -1;
+  margin: 50px;
+}
+
+.about::after {
+  content: '';
+  position: absolute;
+  top: -5%;
+  left: 0;
+  background-image: url("/assets/images/line1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 100%;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  bottom: -5%;
+  left: 0;
+  background-image: url("/assets/images/line2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 100%;
+}
+
+/*------------about------------*/
 
